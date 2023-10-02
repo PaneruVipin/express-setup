@@ -1,7 +1,7 @@
 const { CustomError } = require("../lib/customError");
 
-const httpResponseException = (message, status = 402) => {
+const httpErrorException = (message, status = 402) => {
   throw new CustomError({ errors: [{ message }] }, status);
 };
 
-module.exports = httpResponseException;
+module.exports = httpErrorException;
