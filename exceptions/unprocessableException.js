@@ -1,5 +1,3 @@
-const { CustomError } = require("../lib/customError");
-
 const unprocessableException = (message, status = 412) => {
   throw new CustomError({ errors: [{ message }] }, status);
 };

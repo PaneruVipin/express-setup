@@ -6,3 +6,7 @@ const files = listFiles(currentDirectory, currentFilename);
 files.forEach((item) => {
   require(item);
 });
+
+// dont edit index.js
+// for define routes create new file or folder define routes
+// for how to create routes see test.js

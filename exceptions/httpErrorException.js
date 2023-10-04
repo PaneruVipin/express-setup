@@ -1,5 +1,3 @@
-const { CustomError } = require("../lib/customError");
-
 const httpErrorException = (message, status = 402) => {
   throw new CustomError({ errors: [{ message }] }, status);
 };
