@@ -7,6 +7,6 @@ files.forEach((item) => {
   require(item);
 });
 
-// dont edit index.js
-// for define routes create new file or folder define routes
-// for how to create routes see test.js
+/**Please refrain from editing the index.js file.
+ * To define routes, create a new file or folder specifically for route definitions.
+ * For guidance on creating routes and other examples, refer to the example.js file */
