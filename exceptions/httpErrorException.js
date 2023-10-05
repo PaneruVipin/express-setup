@@ -1,5 +1,5 @@
 const httpErrorException = (message, status = 402) => {
-  throw new CustomError({ errors: [{ message }] }, status);
+  throw new Execption({ errors: [{ message }] }, status);
 };
 
 module.exports = httpErrorException;
