@@ -35,5 +35,6 @@ appRouter.get("/example5", async function () {
 
 appRouter.get("/example6", async function () {
   const data = await resolveHttp(axios.get("https://example.com/800"));
+  if (data?.error) unprocessableException(data?.error);
   respond(data);
 });
