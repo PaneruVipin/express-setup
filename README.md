@@ -22,7 +22,7 @@ The following keywords are special to this framework setup. Please do not assign
 
 2. **Efficient Response Handling**: Utilize the `respond` keyword for intelligent response handling, reducing dependencies on Express arguments.
 
-3. **Error Handling Simplified**: The `exception` keyword simplifies error throwing, making it more intuitive and less reliant on Express arguments.
+3. **Error Handling Simplified**: The `Exception` keyword simplifies error throwing, making it more intuitive and less reliant on Express arguments.
 
 4. **Asynchronous Code Management**: `resolveHttp` and `resolveHttpOrFail` provide effective solutions for handling promises and asynchronous code.
 
